@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+}
+
+.BMI {
+    background-color: gray;
+    color: black;
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 450px;
+    top: 150px;
+}
+
+.Calculator {
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 110px;
+}
+
+input[id=weight_x] {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    position: absolute;
+    position: absolute;
+    left: 20px;
+    top:40px;
+    width: 450px;
+    height: 25px;
+}
+
+p[id="p3"] {
+    position: absolute;
+    left: 155px;
+    top:60px;
+}
+
+input[id=height_x] {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    width: 450px;
+    height: 25px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+button:hover {
+    background-color: rgb(230, 230, 230);
+}
+button:active {
+    border: 5px solid black;
+    position: absolute;
+    top: 148px;
+    left: 198px;
+}
+
+p[id="p4"] {
+    position: absolute;
+    top: 300px;
+    left: 190px;
+}
+
+p[id="result"] {
+    position: absolute;
+    top: 320px;
+    left: 230px;
+}
